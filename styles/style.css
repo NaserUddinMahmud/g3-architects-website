@@ -1,0 +1,126 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Work+Sans&display=swap");
+
+/* common styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #131313;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.header {
+  background: #fff4e7;
+}
+/* navigation styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 230px;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+.header-banner {
+  text-align: center;
+}
+.header-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 64px;
+  margin-bottom: 32px;
+}
+.header-description {
+  margin-bottom: 32px;
+  color: #727272;
+}
+.button-primary {
+  height: 64px;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #ff900e;
+}
+.header-banner img {
+  max-width: 80%;
+  margin: 50px auto;
+}
+/* feature list styles */
+.feature-list {
+  padding: 0 200px;
+  margin: 85px auto 130px;
+}
+.feature-list-container {
+  display: flex;
+  align-items: center;
+}
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 24px;
+  grid-column-gap: 24px;
+  width: 50%;
+}
+.feature-content {
+  padding-left: 70px;
+  width: 50%;
+}
+.feature-content-heading {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 24px;
+}
+.feature-content-heading .gray {
+  color: #727272;
+}
+.feature-content-heading .orange {
+  color: #ff900e;
+}
+.feature-content-description {
+  color: #727272;
+  margin-bottom: 32px;
+}
+/* lovable feature styles */
+.lovable-feature-container {
+  display: flex;
+  gap: 54px;
+  padding: 0 240px;
+}
+
+.lovable-feature-heading {
+    border-left: 5px solid #FF900E ;
+    padding-left: 21px;
+  font-weight: 700;
+  font-size: 45px;
+}
+.sub-sections{
+    padding: 30px;
+}
+.sub-section-heading {
+  font-weight: 600;
+  font-size: 20px;
+}
+.sub-section-description{
+    color: #727272;
+}
+.lovable-feature img{
+    width: 40vw;
+    height: auto;
+}
