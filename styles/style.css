@@ -180,6 +180,11 @@ nav li {
   padding: 50px 35px;
   border: 1px solid #ff900e;
   border-radius: 8px;
+  transition: transform 0.5s ease-out;
+}
+.data:hover {
+  background-color: #ff900e;
+  transform: scale(1.1) rotate(2deg) translate3d(10px, 10px, 10px);
 }
 .data img {
   margin-bottom: 10px;
@@ -190,112 +195,105 @@ nav li {
   margin-bottom: 5px;
   color: #424242;
 }
-.data p{
-    font-weight: 600;
-font-size: 20px;
-color: #727272;
+.data p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
 }
 /* sponsors section styles */
-.sponsors{
-    text-align: center;
- }
-.sponsors .section-heading{
-    font-weight: 700;
+.sponsors {
+  text-align: center;
+}
+.sponsors .section-heading {
+  font-weight: 700;
   font-size: 45px;
   margin-bottom: 24px;
 }
 .sponsors .section-description {
-    max-width: 540px;
-    color: #727272;
-    margin: 0 auto 50px;
+  max-width: 540px;
+  color: #727272;
+  margin: 0 auto 50px;
 }
-.sponsor-logos{
-    display: flex;
-    justify-content:space-between;
-    margin: 0 115px 130px;
+.sponsor-logos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 115px 130px;
 }
-.sponsor-logos img{
-    filter: grayscale(100%);
+.sponsor-logos img {
+  filter: grayscale(100%);
 }
 /* footer section styles */
-.footer{
-    text-align: center;
-    height: 100px;
-    margin: 0 115px 216px;
-    background: #FFF4E7;
-    border-radius: 8px;
-    padding-top: 38px;
-    padding-bottom: 38px;
+.footer {
+  text-align: center;
+  height: 100px;
+  margin: 0 115px 216px;
+  background: #fff4e7;
+  border-radius: 8px;
+  padding-top: 38px;
+  padding-bottom: 38px;
 }
 /* media quarries */
 /* mobile device */
-@media only screen and (max-width: 576px){
-    nav{
-        flex-direction: column;
-        padding: 50px 0;
-    }
-    .nav-title{
-        font-size: 30px;
-        margin-bottom: 20px;
-
-    }
-    nav ul{
-        flex-direction: column;
-       text-align: center;
-      
-    }
-    nav li{
-        margin: 0;
-    }
-    .feature-list {
-        padding: 0 20px;
-        margin: 85px 0 130px;
-    }
-    .feature-list-container{
-        flex-direction: column;
-    }
-    .feature-images {
-        grid-template-columns: repeat(1, 1fr);
-        
-      }
-    .feature-content {
-        padding-left: 10px;
-        width: 100%; 
-    } 
-    .lovable-feature-container {
-        flex-direction: column;
-        padding: 0 25px;
-      }
-      .lovable-feature-explanation {
-        width: 100%;
-      }
-      .lovable-feature .button-big {
-        position: relative;
-        left: 8%;
-        top: -140px;
-      }
-      .facts {
-        margin: 0 15px;
-      }
-      .stats {
-        flex-direction: column;
-        gap: 50px;
-      }
-      .data{
-      margin: 0 16%;
-      }
-      .sponsors .section-description {
-        margin: 0 10% 50px;
-    }
-    .sponsor-logos{
-        flex-direction: column;
-        gap: 30px;
-    }
-    .footer{
-        margin: 0 15px 216px;
-    }
-}
-
-.hide{
-    display: none;
+@media only screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+    padding: 50px 0;
+  }
+  .nav-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav li {
+    margin: 0;
+  }
+  .feature-list {
+    padding: 0 20px;
+    margin: 85px 0 130px;
+  }
+  .feature-list-container {
+    flex-direction: column;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-content {
+    padding-left: 10px;
+    width: 100%;
+  }
+  .lovable-feature-container {
+    flex-direction: column;
+    padding: 0 25px;
+  }
+  .lovable-feature-explanation {
+    width: 100%;
+  }
+  .lovable-feature .button-big {
+    position: relative;
+    left: 8%;
+    top: -140px;
+  }
+  .facts {
+    margin: 0 15px;
+  }
+  .stats {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .data {
+    margin: 0 16%;
+  }
+  .sponsors .section-description {
+    margin: 0 10% 50px;
+  }
+  .sponsor-logos {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .footer {
+    margin: 0 15px 216px;
+  }
 }
