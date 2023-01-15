@@ -111,7 +111,7 @@ nav li {
   padding: 0 115px;
 }
 .lovable-feature-explanation {
-  max-width: 50%;
+  width: 50%;
 }
 .lovable-feature-heading {
   border-left: 5px solid #ff900e;
@@ -131,12 +131,13 @@ nav li {
   color: #727272;
 }
 .lovable-feature img {
-  max-width: 50vw;
+  width: 100%;
+  height: auto;
 }
 .lovable-feature .button-big {
   position: relative;
-  left: 37%;
-  top: -150px;
+  left: 45%;
+  top: -140px;
   margin: 0 auto;
   padding: 46px 42px;
   border: none;
@@ -225,4 +226,76 @@ color: #727272;
     border-radius: 8px;
     padding-top: 38px;
     padding-bottom: 38px;
+}
+/* media quarries */
+/* mobile device */
+@media only screen and (max-width: 576px){
+    nav{
+        flex-direction: column;
+        padding: 50px 0;
+    }
+    .nav-title{
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+    nav ul{
+        flex-direction: column;
+       text-align: center;
+      
+    }
+    nav li{
+        margin: 0;
+    }
+    .feature-list {
+        padding: 0 20px;
+        margin: 85px 0 130px;
+    }
+    .feature-list-container{
+        flex-direction: column;
+    }
+    .feature-images {
+        grid-template-columns: repeat(1, 1fr);
+        
+      }
+    .feature-content {
+        padding-left: 10px;
+        width: 100%; 
+    } 
+    .lovable-feature-container {
+        flex-direction: column;
+        padding: 0 25px;
+      }
+      .lovable-feature-explanation {
+        width: 100%;
+      }
+      .lovable-feature .button-big {
+        position: relative;
+        left: 8%;
+        top: -140px;
+      }
+      .facts {
+        margin: 0 15px;
+      }
+      .stats {
+        flex-direction: column;
+        gap: 50px;
+      }
+      .data{
+      margin: 0 16%;
+      }
+      .sponsors .section-description {
+        margin: 0 10% 50px;
+    }
+    .sponsor-logos{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer{
+        margin: 0 15px 216px;
+    }
+}
+
+.hide{
+    display: none;
 }
