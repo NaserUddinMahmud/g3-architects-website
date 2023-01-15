@@ -11,6 +11,7 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+/* header section styles */
 .header {
   background: #fff4e7;
 }
@@ -32,6 +33,7 @@ nav li {
   list-style: none;
   margin-left: 50px;
 }
+/* header banner styles */
 .header-banner {
   text-align: center;
 }
@@ -116,6 +118,7 @@ nav li {
   padding-left: 21px;
   font-weight: 700;
   font-size: 45px;
+  margin-bottom: 24px;
 }
 .sub-sections {
   padding: 30px;
@@ -210,10 +213,16 @@ color: #727272;
     justify-content:space-between;
     margin: 0 115px 130px;
 }
+.sponsor-logos img{
+    filter: grayscale(100%);
+}
+/* footer section styles */
 .footer{
+    text-align: center;
     height: 100px;
     margin: 0 115px 216px;
     background: #FFF4E7;
     border-radius: 8px;
-    padding: 38px 350px;
+    padding-top: 38px;
+    padding-bottom: 38px;
 }
