@@ -78,9 +78,9 @@ nav li {
   grid-column-gap: 24px;
   width: 50%;
 }
-.feature-list img{
-    max-width: 100%;
-    height: auto;
+.feature-list img {
+  max-width: 100%;
+  height: auto;
 }
 .feature-content {
   padding-left: 70px;
@@ -102,31 +102,53 @@ nav li {
   margin-bottom: 32px;
 }
 /* lovable feature styles */
+
 .lovable-feature-container {
   display: flex;
   gap: 54px;
   padding: 0 115px;
 }
-.lovable-feature-explanation{
-    max-width: 50%;
+.lovable-feature-explanation {
+  max-width: 50%;
 }
 .lovable-feature-heading {
-    border-left: 5px solid #FF900E ;
-    padding-left: 21px;
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
   font-weight: 700;
   font-size: 45px;
 }
-.sub-sections{
-    padding: 30px;
+.sub-sections {
+  padding: 30px;
 }
 .sub-section-heading {
   font-weight: 600;
   font-size: 20px;
 }
-.sub-section-description{
-    color: #727272;
+.sub-section-description {
+  color: #727272;
 }
-.lovable-feature img{
-    max-width: 50vw;
+.lovable-feature img {
+  max-width: 50vw;
+}
+.lovable-feature .button-big{
+    position: relative;
+    left: 37%;
+    top: -150px;
+    margin: 0 auto;
+    padding: 46px 42px;
+    border: none;
+    background: #FF900E;
+  border-radius: 8px;
+}
+.lovable-feature .button-big .huge {
     
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
 }
+.lovable-feature .button-big .small{
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+}
+
