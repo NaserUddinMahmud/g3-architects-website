@@ -19,7 +19,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px 230px;
+  padding: 50px 115px;
 }
 .nav-title {
   font-weight: 700;
@@ -207,6 +207,13 @@ color: #727272;
 }
 .sponsor-logos{
     display: flex;
-    justify-content: space-around;
-    margin: 0 115px ;
+    justify-content:space-between;
+    margin: 0 115px 130px;
+}
+.footer{
+    height: 100px;
+    margin: 0 115px 216px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    padding: 38px 350px;
 }
